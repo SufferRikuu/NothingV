@@ -1,40 +1,36 @@
-![NOTHIN_V(./banner.jpg)
+
 # Encore Tweaks
-**Encore Tweaks**. A Performance Magisk module with AI features and various performance tweaks. This module applies at boot and automatically apply performance scripts automatically based on dumpsys.
+**Encore Tweaks**. This Module includes a lot of Performance module in to one to make it easy install in one time.
 
 ## Features:
 ```
 - Automatic performance script, based on dumpsys
-- Three Performance mode: Performance, Normal, And Powersave
-- Reduces Jitter and Latency
+- Three Performance mode: Performance, Balanced, And Powersave
+- DFPS : Dynamic screen refresh rate controller for Android 10+
 - Universal SoC Support
-- Complete CPU, CPU BUS, GPU, and DRAM Frequency scaling for Snapdragon and Mediatek
-- Disables printk and other logs
+- Optimization memory Base on FOG Device 
+- Disables Sys limit
 - Mediatek tailored parameter settings
 - Schedulers, I/O and Network tweaks
-- Disables SPI CRC
-- Tweaks mglru
-- Allows sched boosting on top-app tasks (Thx to tytydraco)
-- Sets highest priority for Games and most essential processes
-- Uses Google's schedutil rate-limits from Pixel 3
+- Ufperf Base on MTK g80/85 (only)
+- Magic OverlayFS (optional) In case Your Device will Bootloop on some Device base on R/O
+- Auto Protect Bootloop in case to protect You device 
+- Ftrim, Gsm, etc
+- Graphics Composers for Better performance
+- Etc, Check in modules.
 ```
 
 ## Notes:
-- I don't recommend comboing this module with any gayming modules except Thermal Mod.
+- Need Busybox (optional)
+- Conflict on Some Device
+- Flash and Forget 
 
 ## How to flash:
 - Just flash in magisk and reboot
 - And that's it ;)
 
-## How to Contribute:
-- Fork the Repo
-- Edit tweaks according to your info/docs
-- Prettier the code using shfmt and clang-format (Google style)
-- Commit with proper name and info/docs about what you did
-- Test the change you did and check if eveything it's fine
-- Then make a pull request
 
 ## Special Credits
-- tytydraco for KTweaks
-- NotZeetaa for YAKT
-- RiProG for AI Feature
+- @Z907L2 for Atlantis-Tweak
+- Matt Yang for Dfps, Uperf
+- Modulestk for Most module 
